@@ -55,5 +55,20 @@ public class Product {
 	{
 		return productCount;
 	}
+
+	@Override
+	public String toString()
+	{
+		// TODO: Implement this method
+		return super.toString() + "Products {" +
+									"productName= "+productName+ '\'' +
+									", price= "+price+ '\'' +
+									", weight= "+weight+ '\'' +
+									", color= "+color+ '\''+
+									", productCount= "+productName+
+									'}';
+	}
+	
+	
 	
 	}

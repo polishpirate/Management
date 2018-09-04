@@ -1,7 +1,7 @@
 public class User {
-	String id;
-	String login;
-	String password;
+	private String id;
+	private String login;
+	private String password;
 
 	public User(String id, String login, String password) {
 		this.id = id;
@@ -21,6 +21,17 @@ public class User {
 
 	public String getPassword() {
 		return password;
+	}
+
+	@Override
+	public String toString()
+	{
+		// TODO: Implement this method
+		return super.toString()+ "User {"+
+								"id= "+id+ '\''+
+								", login= "+login+ '\''+
+								", password= "+password+
+								'}';
 	}
 	
 	

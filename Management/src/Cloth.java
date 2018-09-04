@@ -20,6 +20,18 @@ public class Cloth extends Product {
 		return material;
 	}
 
+	@Override
+	public String toString()
+	{
+		// TODO: Implement this method
+		return super.toString() + "Cloth {" +
+								"size= "+size+ '\''+
+								", material= "+material+
+								'}';
+								
+		
+	}
+
 	
 	
 }
